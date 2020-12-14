@@ -4,9 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "develop": "nodemon server"
   },
-  "author": "Garrett Love",
+  "author": "Remyson Rodrigues",
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^6.4.0",
